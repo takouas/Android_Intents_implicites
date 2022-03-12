@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP_3_Programmation_mobile _Intents_implicites</string>
+    <string name="editTextUrl">http://developer.android.com</string>
+    <string name="button">ouvrir URL</string>
+    <string name="editTextLocation">tunis</string>
+    <string name="button2">ouvrir  LOCALISATION</string>
+    <string name="editTextPartagerTexte">test </string>
+    <string name="button3">partager texte</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editTextUrl"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="42dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="ouvrirURL"
+        android:text="ouvrir URL"
+        app:layout_constraintBottom_toTopOf="@+id/editTextLocation"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editTextLocation"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="ouvrirLOCALISATION"
+        android:text="ouvrir  LOCALISATION"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPartagerTexte"
+        tools:layout_editor_absoluteX="42dp" />
+
+    <EditText
+        android:id="@+id/editTextPartagerTexte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editTextPartagerTexte"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        tools:layout_editor_absoluteX="35dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="207dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="212dp"
+        android:onClick="partagerTexte"
+        android:text="partager texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="34dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
